@@ -1,0 +1,28 @@
+html {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+}
+
+.todos {
+    list-style-type: none;
+    padding: 0;
+}
+
+.todo {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    padding: 20px 20px;
+    border: 2px solid red;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+.todo-title {
+    margin-left: 10px;
+    margin-right: auto;
+}
+/* 
+.todo-checked {
+    text-decoration: line-through;
+} */
